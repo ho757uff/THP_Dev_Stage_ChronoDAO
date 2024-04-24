@@ -3,8 +3,13 @@
   "name": "ChronoDAO Assets Tracker",
   "description": "Une application dont le but est de vous aider à suivre vos actifs sur OpenLoot, ainsi que leurs valeurs instantanées (basées sur le prix plancher ou la dernière vente).",
   "version": "1.0",
+  "icons": {
+    "16": "Assets/icon-16.png",
+    "32": "Assets/icon-32.png",
+    "64": "Assets/icon-48.png",
+    "128": "Assets/icon-128.png"
+  },
   "browser_action": {
-    "default_icon": "Assets/icon-128.png",
     "default_popup": "popup.html"
   },
   "permissions": ["activeTab", "storage"]
