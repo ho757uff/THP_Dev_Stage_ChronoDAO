@@ -1,18 +1,17 @@
-import React from "react"
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom"
-
-import IndexPopup from "./IndexPopup"
-import FullScreenPage from "./src/pages/FullScreenPage"
+import React from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import IndexPopup from "./build/chrome-mv3-dev/IndexPopup";
+import FullScreenPage from "./src/pages/FullScreenPage";
 
 const App: React.FC = () => {
   return (
     <Router>
-      <Switch>
-        <Route path="/full-screen" component={FullScreenPage} />
-        <Route path="/" component={IndexPopup} />
-      </Switch>
+      <Routes>
+        <Route path="/full-screen" Component={FullScreenPage} />
+        <Route path="/" Component={IndexPopup} />
+      </Routes>
     </Router>
-  )
-}
+  );
+};
 
-export default App
+export default App;
