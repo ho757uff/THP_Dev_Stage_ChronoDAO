@@ -13,29 +13,29 @@ api.openloot.com/v2
 
 ------
 
-/users <br>
-/users/transaction <br>
-/users/transaction/history <br>
-/users/transaction/tsx-id/detail <br>
+/users - NOT WORKING <br>
+/users/transaction - NOT WORKING <br>
+/users/transaction/history - NOT WORKING <br>
+/users/transaction/tsx-id/detail - NOT WORKING <br>
 
 /market/items <br>
-/market/items/transaction/history <br>
-/market/items/in-game/history <br>
+/market/items/transaction/history - NOT WORKING : {"code":"BadRequestError","message":"archetypeId should not be empty, archetypeId must be a string"} <br> 
+/market/items/in-game/history - NOT WORKING <br>
 
-market/orders/open <br>
-market/me/rentals <br>
-market/me/rentals-orders | owner=true VS renter=true <br>
+market/orders/open - WORKS <br>
+market/me/rentals - WORKS <br>
+market/me/rentals-orders | owner=true VS renter=true - NOT WORKING<br>
 
-/market/config <br>
+/market/config - NOT WORKING <br>
 
-/market/listings <br>
+/market/listings - WORKS <br>
 
-/market/rentals <br>
+/market/rentals - WORKS <br>
 
 /market/premium-currencies - WORKS <br>
 
 /market/tokens - WORKS <br>
 
-/market/features <br>
-/market/features/NFTWithdrawal <br>
-/market/features/NFTWithdrawal/whitelistUser <br>
+/market/features - NOT WORKING <br>
+/market/features/NFTWithdrawal - NOT WORKING <br>
+/market/features/NFTWithdrawal/whitelistUser - NOT WORKING <br>
