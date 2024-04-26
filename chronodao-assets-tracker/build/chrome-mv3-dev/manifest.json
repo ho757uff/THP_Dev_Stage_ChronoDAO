@@ -1,0 +1,43 @@
+{
+  "icons": {
+    "16": "icon16.plasmo.9f44d99c.png",
+    "32": "icon32.plasmo.83dbbbab.png",
+    "48": "icon48.plasmo.a78c509e.png",
+    "64": "icon64.plasmo.15206795.png",
+    "128": "icon128.plasmo.c11f39af.png"
+  },
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "16": "icon16.plasmo.9f44d99c.png",
+      "32": "icon32.plasmo.83dbbbab.png",
+      "48": "icon48.plasmo.a78c509e.png",
+      "64": "icon64.plasmo.15206795.png",
+      "128": "icon128.plasmo.c11f39af.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "version": "0.0.1",
+  "author": "ChronoDAO",
+  "name": "DEV | Chronodao assets tracker",
+  "description": "Une application dont le but est de vous aider à suivre vos actifs sur OpenLoot, ainsi que leurs valeurs instantanées (basées sur le prix plancher ou la dernière vente).",
+  "host_permissions": [
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "plasmo-default-background.ffffaf1d.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' http://localhost;object-src 'self';"
+  },
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "__plasmo_hmr_proxy__"
+      ]
+    }
+  ]
+}

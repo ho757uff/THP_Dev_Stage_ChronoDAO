@@ -11,12 +11,13 @@ At the moment we're aiming to develop :
 
 api.openloot.com/v2
 
+------
+
 /users <br>
 /users/transaction <br>
 /users/transaction/history <br>
 /users/transaction/tsx-id/detail <br>
 
-/market <br>
 /market/items <br>
 /market/items/transaction/history <br>
 /market/items/in-game/history <br>
@@ -31,9 +32,9 @@ market/me/rentals-orders | owner=true VS renter=true <br>
 
 /market/rentals <br>
 
-/market/premium-currencies <br>
+/market/premium-currencies - WORKS <br>
 
-/market/tokens <br>
+/market/tokens - WORKS <br>
 
 /market/features <br>
 /market/features/NFTWithdrawal <br>
