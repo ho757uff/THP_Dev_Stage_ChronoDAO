@@ -22,9 +22,9 @@ api.openloot.com/v2
 /market/items/transaction/history - NOT WORKING : {"code":"BadRequestError","message":"archetypeId should not be empty, archetypeId must be a string"} <br> 
 /market/items/in-game/history - NOT WORKING <br>
 
-market/orders/open - WORKS <br>
-market/me/rentals - WORKS <br>
-market/me/rentals-orders | owner=true VS renter=true - NOT WORKING<br>
+/market/orders/open - WORKS <br>
+/market/me/rentals - WORKS <br>
+/market/me/rentals-orders | owner=true VS renter=true - NOT WORKING<br>
 
 /market/config - NOT WORKING <br>
 
@@ -39,3 +39,12 @@ market/me/rentals-orders | owner=true VS renter=true - NOT WORKING<br>
 /market/features - NOT WORKING <br>
 /market/features/NFTWithdrawal - NOT WORKING <br>
 /market/features/NFTWithdrawal/whitelistUser - NOT WORKING <br>
+
+
+----
+
+Prisma = ORM (Object-Relational Mapping)
+Définir les modèles de données dans Prisma permet d'assister lors de la phase de DEV, notamment en enregistrant certaines données dans notre base de données à nous comme le prix de certaines locations par exemple.
+
+
+"Si ce n'est pas un craftable et si ça n'a pas été acheté ou loué c'est forcément un drop"
